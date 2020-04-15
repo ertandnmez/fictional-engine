@@ -19,7 +19,7 @@ SAYI BULMA OYUNUNA HOŞGELDİNİZ...
 *************************************************
 """)
 
-hak = 3
+hak = 8
 bul = random.randint(0,100)
 while True:
     sayı = int(input("Tahmininizi Giriniz:\n "))
