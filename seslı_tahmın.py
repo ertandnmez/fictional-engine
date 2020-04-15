@@ -13,7 +13,9 @@ print("""
 *************************************************
 SAYI BULMA OYUNUNA HOŞGELDİNİZ...
 
-3 HAKKINIZ VAR
+4 HAKKINIZ VAR
+
+0-50 ARASINDAKİ SAYIYI BUL
 
 İYİ EĞLENCELER...
 *************************************************
