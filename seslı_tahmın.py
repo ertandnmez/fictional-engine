@@ -19,12 +19,16 @@ SAYI BULMA OYUNUNA HOŞGELDİNİZ...
 *************************************************
 """)
 
-hak = 8
-bul = random.randint(0,100)
+hak = 4
+bul = random.randint(0,50)
 while True:
     sayı = int(input("Tahmininizi Giriniz:\n "))
 
-    if sayı < bul:
+    if sayı == bul:
+        print("Tebrikler Oyunu Kazandınız...")
+        break
+        
+    elif sayı < bul:
         print("Daha yükseğe çık!")
         hak -= 1
         alarm()
@@ -34,9 +38,7 @@ while True:
         hak -= 1
         alarm()
 
-    if sayı == bul:
-        print("Tebrikler Oyunu Kazandınız...")
-        break
+    
 
     if hak == 0:
         print("Tahmin Hakkınız Kalmadı...")
